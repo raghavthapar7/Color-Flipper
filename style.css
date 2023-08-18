@@ -1,5 +1,10 @@
+/* Font - Rampart One */
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rampart One", sans-serif;
+  text-align: center;
 }
