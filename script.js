@@ -6,6 +6,7 @@ let generateRandomColor = function () {
 
 let colorButton = document.getElementsByClassName("btn-change")[0];
 let header = document.getElementsByClassName("header")[0];
+let color = document.getElementsByClassName("color")[0];
 // let colorBox = document.getElementById("box");
 
 colorButton.addEventListener("click", function () {
@@ -14,5 +15,6 @@ colorButton.addEventListener("click", function () {
   let b = generateRandomColor();
 
   header.style.backgroundColor = `rgb(${r},${g},${b})`;
+  color.textContent = `rgb(${r},${g},${b})`;
   console.log(r, g, b);
 });
