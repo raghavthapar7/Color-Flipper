@@ -8,3 +8,9 @@ body {
   font-family: "Rampart One", sans-serif;
   text-align: center;
 }
+
+#box {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(0, 0, 0);
+}
