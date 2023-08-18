@@ -22,6 +22,7 @@ body {
   align-items: center;
   gap: 30px;
   transition: all 500ms ease-out;
+  cursor: pointer;
 }
 
 .heading {
@@ -29,11 +30,14 @@ body {
 }
 
 .color-teller {
-  font-size: 24px;
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  font-size: 16px;
   font-family: sans-serif;
 }
 
-.btn-change {
+/* .btn-change {
   font-family: inherit;
   background: none;
   font-size: 16px;
@@ -42,4 +46,4 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   border: 2px solid #000;
-}
+} */
