@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  transition: all 500ms ease-out;
 }
 
 .heading {
